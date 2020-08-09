@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+	<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="Logo">
+				</a>
+			</div>
+
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="log.html">Login</a></li>
+                    
+				</ul>
+			</nav>
+		</header>	
+           
+<section id="register">
+			<h2>Register</h2>
+			<hr>
+               <h3>Be a Member with us</h3>
+
+			<form name='reg' onSubmit="return validateformReg();" method="post" action="index.html">
+                   
+               <input type="text" tabindex="1" name="name" placeholder="Full Name" class="text"/><br>
+                   
+				<input type="email" tabindex="1" name="email" placeholder="E-mail" class="text"/><br>
+                   
+				<input type="password" tabindex="2" name="password" placeholder="Password" class="text"/><br>
+                   
+                <input type="password" tabindex="2" name="password1" placeholder="Retype Password" class="text"/><br/>  
+                   
+				<input type="submit" value="Register" class="button"/>
+				
+			</form>
+       <h3>If you have a account please login</h3>
+
+</section>
+              
+               		<footer>
+			<p>
+				&copy; 2020-2021 PLANT
+			</p>
+		</footer>
+	</body>
+</html>

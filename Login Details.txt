@@ -1,2 +1,2 @@
-Login email = hello@payxcode.com
+Login email = payxcode@gmail.com
 Login password = paysw2020
